@@ -1,15 +1,18 @@
 <body>
-  <section id="wrapper" class="wrapper">
-    <div class="forms">
-    <input id="num-one" class="input-field">
-    <input id="num-two" class="input-field"> 
-    <input checked id="box1" name="sign-area" type="radio" value="add"> SUM 
-      <input  id="box2" name="sign-area" type="radio" value="subtract"> MIN 
-       <input  id="box3" name="sign-area" type="radio" value="multiply"> MULT 
-      <input  id="box4" name="sign-area" type="radio" value="divide"> DIV
-      <input id="result" class="input-field"> 
-       </div>
-    <button onclick="outcome()"type="button">Calculate</button>
-    <h1 id="resultArea"></h1>
-  </section>
+   <section id="wrapper" class="wrapper">
+      <h1> Calculadora Simples </h1>
+      <div class="forms">
+         <!-- CAMPOS PARA ADICIONAR O NÚMERO A SER SOMADO -->
+         <input id="num-one" class="input-field" placeholder="Primeiro Número"><label>
+         <input id="num-two" class="input-field" placeholder="Segundo Número">
+         <input id="result" class="input-field" placeholder="Resultado"> 
+         <!--SELECIONAR A OPERAÇÃO A SER FEITA -->  
+         <input checked id="box1" name="sign-area" type="radio" value="add"> +
+         <input  id="box2" name="sign-area" type="radio" value="subtract"> -
+         <input  id="box3" name="sign-area" type="radio" value="multiply"> *
+         <input  id="box4" name="sign-area" type="radio" value="divide"> /
+      </div>
+      <!-- BOTÃO PARA CHAMAR A FUNÇÃO DE CALCULAR OS NÚMEROS -->
+      <button onclick="outcome()"type="button">Calcular</button>
+   </section>
 </body>
