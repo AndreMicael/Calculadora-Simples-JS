@@ -63,4 +63,8 @@ button {
   letter-spacing: 2px;
   text-align: center;
   border-radius: 30px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9e113c;
 }
