@@ -1,6 +1,7 @@
 body {
   background-color: #000000;
   font-family: "Helvetica", sans-serif;
+
 }
 
 .wrapper {
@@ -24,6 +25,18 @@ body {
   border-radius: 25px;
   text-align: center;
   font-size: 15px;
+}
+
+#result {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  height: 30px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 15px;
+  background-color: #a9a9a9;
+  
 }
 
 input[type="radio"] {
