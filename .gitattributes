@@ -1,3 +1,2 @@
-static/* linguist-vendored
-site_cartao/static/* linguist-vendored
-site_cartao/templates/* linguist-vendored
+* linguist-vendored
+*.css linguist-vendored=false
