@@ -1,0 +1,50 @@
+body {
+  background-color: #000000;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.wrapper {
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: rgba(255,255,255,0.2);
+  border-radius: 45px;
+	padding: 50px;
+	color: #fff;
+	text-align: center;  
+}
+
+.input-field { 
+  width: 200px;   
+  display: flex;
+  margin: 3% 25% 0 25%;
+  height: 30px;
+ 
+  
+}
+
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+  margin-top: 3%;  
+}
+
+.forms{  
+  margin-bottom: 3%;
+  background-color: rgba(255,255,255,0.3);
+}
+
+
+button {
+	background: #EE4477;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;	
+	letter-spacing: 2px;	
+  width: 400px;
+}
